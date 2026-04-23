@@ -32,7 +32,7 @@ export async function POST(req: NextRequest) {
         'X-Title': 'SnapRecipe',
       },
       body: JSON.stringify({
-        model: 'google/gemma-4-26b-a4b-it:free',
+        model: 'openrouter/free',
         messages: [
           {
             role: 'user',
